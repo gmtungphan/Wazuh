@@ -1,0 +1,15 @@
+<syscheck>
+<disable>no</disable>
+<!-- Automation when start system -->
+<scan_on_start>yes</scan_on_start>
+<!-- Thông báo khi có files mới -->
+<alert_new_files>yes </alert_new_files>
+<!-- Kiểm tra thư mục -->
+<directories check_all="yes">/var/www/html/</directories>
+<!-- Check Webshell -- >
+<directories check_all realtimes="yes">/var/etc/ossec/webshell.txt</directories>
+<whodata>yes</whodata>
+
+
+
+</syscheck>
